@@ -40,7 +40,6 @@ CREATE TABLE esami(
 );
 
 
--- Da qui in poi popolamento massiccio
 INSERT INTO studenti VALUES ("IN2000037","Alessandro","Corrias","CRRLSS91R25L424Q");
 INSERT INTO studenti VALUES ("SM3211162","Leonardo","Bianchi","BNCLRD99A12L424Y") ;
 INSERT INTO studenti VALUES ("EC2100766","Arturo","Mugione","MGNRTR93C28L424U");
