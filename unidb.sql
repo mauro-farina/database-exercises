@@ -393,7 +393,7 @@ INSERT INTO professori VALUES (NULL,"Tancredi","Michilli","MCHTNC62T17A056D","IN
 INSERT INTO professori VALUES (NULL,"Diego","Carullo","CRLDGI50E21K636E","MAT/01");
 INSERT INTO professori VALUES (NULL,"Stefania","Filippi","FLPSTF67P42L424L","ING-IND/11");
 INSERT INTO professori VALUES (NULL,"Amelia","Taurone","TRNMLA78T68N763G","ING-IND/11");
-INSERT INTO corsi VALUES ("079IN","Basi di Dati",6,10);
+INSERT INTO corsi VALUES ("079IN","Basi di Dati",6,1);
 INSERT INTO corsi VALUES ("511SM","Analisi Matematica 3",12,NULL);
 INSERT INTO corsi VALUES ("963ZE","Analisi 1",6,10);
 INSERT INTO corsi VALUES ("187HH","Geometria",13,11);
