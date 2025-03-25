@@ -1,4 +1,4 @@
-DROP DATABASE unidb;
+DROP DATABASE IF EXISTS unidb;
 CREATE DATABASE unidb;
 USE unidb;
 
@@ -38,7 +38,6 @@ CREATE TABLE esami(
     CHECK (voto BETWEEN 18 AND 30),
     CHECK ((voto<=30 AND lode=FALSE) OR (voto=30 AND lode=TRUE))
 );
-
 
 INSERT INTO studenti VALUES ("IN2000037","Alessandro","Corrias","CRRLSS91R25L424Q");
 INSERT INTO studenti VALUES ("SM3211162","Leonardo","Bianchi","BNCLRD99A12L424Y") ;
