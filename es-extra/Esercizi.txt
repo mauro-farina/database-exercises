@@ -1,0 +1,9 @@
+EE1: Elencare tutti i corsi per i quali nessuno ha passato l'esame a gennaio 2020
+
+EE2: Ci sono professori che non tengono alcun corso?
+
+EE3: Restituire l'anno nel quale il maggior numero di studenti ha sostenuto l'esame di Geometria
+
+EE4: Elencare tutti i corsi per cui la media voti all'esame è superiore a 26
+
+EE5: Se 1 CFU corrisponde a 8 ore di lezione, qual è il professore che passa meno tempo a insegnare?
