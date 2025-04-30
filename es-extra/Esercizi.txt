@@ -7,3 +7,7 @@ EE3: Restituire l'anno nel quale il maggior numero di studenti ha sostenuto l'es
 EE4: Elencare tutti i corsi per cui la media voti all'esame è superiore a 26
 
 EE5: Se 1 CFU corrisponde a 8 ore di lezione, qual è il professore che passa meno tempo a insegnare?
+
+EE6: Chi è lo studente/ssa con media voti ponderata più alta di ciascun corso di laurea (cdl)?
+
+EE7: Creare una stored procedure (sp_trend_esame) che, dato in ingresso un corso (codice, char(5)), elenchi nome e cognome di tutti gli studenti che hanno passato l'esame, aggiungendo la colonna "Trend" che indica se lo studente ha preso un voto "Sopra", "Sotto" o "Uguale" alla media voti del corso.
