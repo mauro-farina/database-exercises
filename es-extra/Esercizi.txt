@@ -11,3 +11,11 @@ EE5: Se 1 CFU corrisponde a 8 ore di lezione, qual è il professore che passa me
 EE6: Chi è lo studente/ssa con media voti ponderata più alta di ciascun corso di laurea (cdl)?
 
 EE7: Creare una stored procedure (sp_trend_esame) che, dato in ingresso un corso (codice, char(5)), elenchi nome e cognome di tutti gli studenti che hanno passato l'esame, aggiungendo la colonna "Trend" che indica se lo studente ha preso un voto "Sopra", "Sotto" o "Uguale" alla media voti del corso.
+
+EE8: Sul DB classicmodels, quanti ordini ha effettuato ciascun cliente (customer) in ogni anno (orderDate)? E quanto ha speso? Ordinare i risultati in ordine alfabetico rispetto al nome del cliente (customerName)
+
+EE9: Sul DB classicmodels, elencare i prodotti che (i) appartengano a una productLine contenente più di 20 prodotti e (ii) abbiano un buyPrice maggiore del buyPrice medio della productLine a cui appartiene
+
+EE10: Sul DB classicmodels, elencare i clienti (customerName) che in almeno un anno hanno acquistato l'articolo più venduto in quell'anno. Suggerimento: definire la UDF most_sold_of_year
+
+EE11: Scrivere un trigger che, nel momento in cui viene inserito un corso scoperto (cioè senza un professore associato), lo assegna ad un prof. che non ha corsi (non importa a quale)
